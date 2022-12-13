@@ -1,0 +1,20 @@
+# 忽略所有.md文件
+# *.md
+
+# 但是跟踪lib.md文件
+# !lib.md
+
+# 只忽略当前目录下的file
+# /file
+
+# 只忽略当前目录下的4.txt
+# /4.txt
+
+# 忽略任何目录下的名为file的文件夹
+# file/
+
+# 忽略great/3.txt和great/4.txt，但不忽略great/file/5.txt和great/file/6.txt
+# great/*.txt
+
+# 忽略great文件目录及其子目录下的所有.txt文件
+great/**/*.md
